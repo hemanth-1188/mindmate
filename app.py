@@ -205,5 +205,4 @@ if __name__ == '__main__':
     print("📱 Visit: http://localhost:5000")
     print("⚠️  Remember: This is for educational purposes only")
     
-    if __name__ == "__main__":
-    app.run()
+    app.run(debug=True, host='0.0.0.0', port=5000)
