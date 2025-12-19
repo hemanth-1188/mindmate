@@ -120,3 +120,4 @@ def detect_emotion(text: str) -> Dict:
         "confidence": 0.65 if emotion != "neutral" else 0.5,
         "method": "tfidf"
     }
+
