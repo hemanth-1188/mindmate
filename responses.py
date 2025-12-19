@@ -123,3 +123,4 @@ def generate_response(emotion: str, risk_score: int, history: List[str] = None) 
         )
 
     return response
+
